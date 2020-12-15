@@ -25,6 +25,7 @@
     "eslint-plugin-import": "2",
     "eslint-plugin-node": "11",
     "eslint-plugin-promise": "4",
+    "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-standard": "4",
     "faker": "^5.1.0",
     "git-commit-msg-linter": "^3.0.0",

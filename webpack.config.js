@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'public/js'),
     publicPath: '/public/js',
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
@@ -27,4 +27,4 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin()
   ]
-};
+}
