@@ -2,6 +2,7 @@ import React from 'react'
 import Styles from './login-styles.scss'
 import Spinner from '@/presentation/components/spinner/spinner'
 import Header from '@/presentation/components/login-header/login-header'
+import Footer from '@/presentation/components/footer/footer'
 
 const Login: React.FC = () => {
   // TODO Refatorando layout em componentes 04:50
@@ -35,9 +36,7 @@ const Login: React.FC = () => {
           <span className={Styles.error}> Erro</span>
         </div>
       </form>
-
-      <footer className={Styles.footer}>
-      </footer>
+      <Footer />
     </div>
   )
 }
