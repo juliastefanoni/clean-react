@@ -62,28 +62,6 @@ button {
       margin-bottom: 16px;
     }
 
-    label {
-      margin-top: 8px;
-      margin-bottom: 8px;
-    }
-
-    .inputWrap {
-      display: flex;
-      position: relative;
-      align-items: center;
-
-      input {
-        flex-grow: 1;
-      }
-
-      .status {
-        position: absolute;
-        right: 8px;
-        font-size: 12px;
-        cursor: help;
-      }
-    }
-
     .submit {
       margin-top: 32px;
     }

@@ -3,26 +3,18 @@ import Styles from './login-styles.scss'
 import Spinner from '@/presentation/components/spinner/spinner'
 import Header from '@/presentation/components/login-header/login-header'
 import Footer from '@/presentation/components/footer/footer'
+import Input from '@/presentation/components/input/input'
 
 const Login: React.FC = () => {
-  // TODO Refatorando layout em componentes 04:50
   return (
     <div className={Styles.login}>
       <Header />
       <form action="" className={Styles.form}>
         <h2> Login </h2>
 
-        <label htmlFor="email"> Email </label>
-        <div className={Styles.inputWrap}>
-          <input type="email" name="email" placeholder="name@domain.com" id="email"/>
-          <span className={Styles.status}>🔴</span>
-        </div>
+        <Input type="email" name="email" placeholder="name@domain.com" id="email"/>
 
-        <label htmlFor="password"> Senha </label>
-        <div className={Styles.inputWrap}>
-          <input type="password" name="password" placeholder="Sua senha secreta" id="password"/>
-          <span className={Styles.status}>🔴</span>
-        </div>
+        <Input type="password" name="password" placeholder="Sua senha secreta" id="password"/>
 
         <button type="submit" className={Styles.submit}>
           Entrar
