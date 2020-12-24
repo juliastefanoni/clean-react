@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 
 import Logo from '@/presentation/components/logo/logo'
 
@@ -13,4 +13,4 @@ const LoginHeader: React.FC = () => {
   )
 }
 
-export default LoginHeader
+export default memo(LoginHeader)
